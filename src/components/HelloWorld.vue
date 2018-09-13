@@ -1,9 +1,13 @@
 <template>
   <div class="hello">
-    <img src="../assets/profile.jpg" class="vue-logo" height="300px">
+    <img src="../assets/profile.jpg" class="profile-logo" height="300px">
     <h1>{{ msg }}</h1>
+    <p>※この画像は高校生の頃のものであり実物とは異なります。</p>
     <router-link to="/about">
       <v-btn>岡田徹について知る</v-btn>
+    </router-link>
+    <router-link to="/portfolio">
+      <v-btn>仕方ねえからポートフォリオを見る</v-btn>
     </router-link>
   </div>
 </template>
@@ -37,5 +41,8 @@ li {
 }
 a {
   text-decoration: none;
+}
+.profile-logo {
+  margin-top: 30px;
 }
 </style>
