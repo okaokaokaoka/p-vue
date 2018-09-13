@@ -1,7 +1,8 @@
 <template>
   <div class="hello">
+    <img src="../assets/logo.png" class="vue-logo">
     <h1>{{ msg }}</h1>
-      <h2>岡田徹爆誕</h2>
+    <router-link to="/about">岡田徹について知る</router-link>
   </div>
 </template>
 

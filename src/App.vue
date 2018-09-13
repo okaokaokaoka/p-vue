@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <HeaderItem/>
-    <img src="./assets/logo.png" class="vue-logo">
     <router-view/>
   </div>
 </template>
