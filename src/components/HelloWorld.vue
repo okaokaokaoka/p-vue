@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <Carousel/>
+    <!-- <Carousel/> -->
+    <Parallax/>
     <h1>{{ msg }}</h1>
     <p>※この画像は高校生の頃のものであり実物とは異なります。</p>
     <router-link to="/about">
@@ -17,11 +18,13 @@
 
 <script>
 import Carousel from './contents/Carousel'
+import Parallax from './contents/Parallax'
 
 export default {
   name: 'HelloWorld',
   components: {
-    Carousel
+    Carousel,
+    Parallax
   },
   data () {
     return {
@@ -33,9 +36,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.hello {
+/* .hello {
   margin-top: 30px;
-}
+} */
 h1, h2 {
   font-weight: normal;
 }

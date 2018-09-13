@@ -5,6 +5,8 @@
         岡田徹について紹介します
       </h1>
     </div>
+    <div>
+    </div>
     <Card/>
   </div>
 </template>
