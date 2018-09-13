@@ -1,6 +1,7 @@
 # p-vue
 
 > A Vue.js project
+Vueの練習
 
 ## Build Setup
 
