@@ -7,8 +7,9 @@
       <v-btn>岡田徹について知る</v-btn>
     </router-link>
     <router-link to="/portfolio">
-      <v-btn>仕方ねえからポートフォリオを見る</v-btn>
+      <v-btn>仕方ねえからポートフォリオを見てやるか…</v-btn>
     </router-link>
+    <v-btn>儲かる話はこちら</v-btn>
   </div>
 </template>
 
