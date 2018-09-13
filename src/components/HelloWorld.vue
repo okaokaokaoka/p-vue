@@ -2,7 +2,9 @@
   <div class="hello">
     <img src="../assets/logo.png" class="vue-logo">
     <h1>{{ msg }}</h1>
-    <router-link to="/about">岡田徹について知る</router-link>
+    <router-link to="/about">
+      <v-btn>岡田徹について知る</v-btn>
+    </router-link>
   </div>
 </template>
 
@@ -34,6 +36,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  text-decoration: none;
 }
 </style>
