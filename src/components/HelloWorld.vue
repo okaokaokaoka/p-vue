@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img src="../assets/logo.png" class="vue-logo">
+    <img src="../assets/profile.jpg" class="vue-logo" height="300px">
     <h1>{{ msg }}</h1>
     <router-link to="/about">
       <v-btn>岡田徹について知る</v-btn>
@@ -13,7 +13,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Vueを使ってみようや'
+      msg: 'おかおかちゃん⭐'
     }
   }
 }
