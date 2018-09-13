@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <img src="../assets/profile.jpg" class="profile-logo" height="300px">
+    <Carousel/>
     <h1>{{ msg }}</h1>
     <p>※この画像は高校生の頃のものであり実物とは異なります。</p>
     <router-link to="/about">
@@ -16,8 +16,13 @@
 </template>
 
 <script>
+import Carousel from './contents/Carousel'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Carousel
+  },
   data () {
     return {
       msg: 'おかおかちゃん⭐'
