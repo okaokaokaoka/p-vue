@@ -9,7 +9,9 @@
     <router-link to="/portfolio">
       <v-btn>仕方ねえからポートフォリオを見てやるか…</v-btn>
     </router-link>
-    <v-btn>儲かる話はこちら</v-btn>
+    <router-link to="/contact">
+      <v-btn>儲かる話はこちら</v-btn>
+    </router-link>
   </div>
 </template>
 
