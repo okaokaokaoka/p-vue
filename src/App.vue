@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <HeaderItem/>
+    <img src="./assets/logo.png" class="vue-logo">
     <router-view/>
   </div>
 </template>
 
 <script>
+import HeaderItem from './components/HeaderItem'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    HeaderItem
+  }
 }
 </script>
 
@@ -18,6 +24,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+}
+.vue-logo {
+  margin-top: 30px;
 }
 </style>
