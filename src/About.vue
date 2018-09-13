@@ -1,12 +1,22 @@
 <template>
   <div class="about">
-    <h1>
-      岡田徹について紹介します
-    </h1>
+    <div>
+      <h1>
+        岡田徹について紹介します
+      </h1>
+    </div>
+    <Card/>
   </div>
 </template>
 
 <script>
+import Card from './components/contents/Card'
+
+export default {
+  components: {
+    Card
+  }
+}
 </script>
 
 <style scoped>
