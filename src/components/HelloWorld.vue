@@ -1,94 +1,33 @@
 <template>
   <div class="hello">
+    <!-- <Carousel/> -->
+    <Parallax/>
     <h1>{{ msg }}</h1>
-    <h2>あいうえお</h2>
-    <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank"
-        >
-          Community Chat
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
-      </li>
-    </ul>
+    <router-link to="/about">
+      <v-btn>岡田徹について知る</v-btn>
+    </router-link>
+    <router-link to="/portfolio">
+      <v-btn>仕方ねえからポートフォリオを見てやるか…</v-btn>
+    </router-link>
+    <router-link to="/contact">
+      <v-btn>儲かる話はこちら</v-btn>
+    </router-link>
   </div>
 </template>
 
 <script>
+import Carousel from './contents/Carousel'
+import Parallax from './contents/Parallax'
+
 export default {
   name: 'HelloWorld',
+  components: {
+    Carousel,
+    Parallax
+  },
   data () {
     return {
-      msg: 'Vueを使ってみようや'
+      msg: 'おかおかちゃん⭐'
     }
   }
 }
@@ -96,6 +35,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+/* .hello {
+  margin-top: 30px;
+} */
 h1, h2 {
   font-weight: normal;
 }
@@ -108,6 +50,9 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  text-decoration: none;
+}
+.profile-logo {
+  margin-top: 30px;
 }
 </style>
