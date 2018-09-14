@@ -3,6 +3,12 @@
     <!-- <Carousel/> -->
     <Parallax/>
     <h1>{{ msg }}</h1>
+    <input
+      @click="coutnUp()"
+      type="button"
+      value="+1"
+    />
+    <p>{{count}}</p>
     <router-link to="/about">
       <v-btn>岡田徹について知る</v-btn>
     </router-link>
@@ -27,7 +33,13 @@ export default {
   },
   data () {
     return {
-      msg: 'おかおかちゃん⭐'
+      msg: 'おかおかちゃん⭐',
+      count: 0
+    }
+  },
+  methods: {
+    coutnUp () {
+      this.count++
     }
   }
 }
