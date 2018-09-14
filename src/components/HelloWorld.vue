@@ -3,11 +3,11 @@
     <!-- <Carousel/> -->
     <Parallax/>
     <h1>{{ msg }}</h1>
-    <input
+    <v-btn
       @click="coutnUp()"
       type="button"
       value="+1"
-    />
+    >数字が増えるかもしれないよ</v-btn>
     <p>{{count}}</p>
     <router-link to="/about">
       <v-btn>岡田徹について知る</v-btn>
