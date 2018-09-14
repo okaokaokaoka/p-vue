@@ -3,7 +3,6 @@
     <!-- <Carousel/> -->
     <Parallax/>
     <h1>{{ msg }}</h1>
-    <p>※この画像は高校生の頃のものであり実物とは異なります。</p>
     <router-link to="/about">
       <v-btn>岡田徹について知る</v-btn>
     </router-link>
