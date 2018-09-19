@@ -1,14 +1,7 @@
 <template>
   <div class="hello">
     <!-- <Carousel/> -->
-    <Parallax/>
     <h1>{{ msg }}</h1>
-    <v-btn
-      @click="coutnUp()"
-      type="button"
-      value="+1"
-    >数字が増えるかもしれないよ</v-btn>
-    <p>{{count}}</p>
     <router-link to="/about">
       <v-btn>岡田徹について知る</v-btn>
     </router-link>
@@ -33,8 +26,7 @@ export default {
   },
   data () {
     return {
-      msg: 'おかおかちゃん⭐',
-      count: 0
+      msg: 'Hello World!'
     }
   },
   methods: {
