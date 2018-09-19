@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <div class="mt-3">
+    <div class="mt-5">
       <img src="../assets/profile_pic.jpg" alt="profile" height="200px">
     </div>
-    <div class="mb-3">
+    <div class="mb-5 mt-3">
       <h1>Toru Okada(22)</h1>
       <h2 color="grey lighten-3">岡田 徹</h2>
       <div class="mt-1 intro-wrapper">
@@ -57,9 +57,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* .hello {
-  margin-top: 30px;
-} */
+.hello {
+  margin-bottom: 30px;
+}
 h1, h2 {
   font-weight: normal;
 }
