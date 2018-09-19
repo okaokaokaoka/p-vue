@@ -1,19 +1,31 @@
 <template>
   <div class="about">
-    <div class="mt-3">
-      <p class="display-1">
-        My history.
-      </p>
-    </div>
-    <div class="mt-3 desc-wrapper">
-      <v-container>
-        <p class="text-sm-left text-md-center">Mar.2014: さいたま市立浦和高校卒業</p>
-        <p class="text-sm-left text-md-center">Apr.2014: 大阪大学経済学部入学</p>
-        <p class="text-sm-left text-md-center">Aug.2016: Web制作を開始</p>
-        <p class="text-sm-left text-md-center">Sep.2017: 大規模ビジネスコンテストにて優勝</p>
-        <p class="text-sm-left text-md-center">Mar.2018: Bullzにて、自社サービス開発</p>
-      </v-container>
-    </div>
+    <v-container>
+      <div class="mt-3">
+        <p class="display-1">
+          My history.
+        </p>
+      </div>
+      <div class="mt-3 desc-wrapper">
+          <p class="text-sm-left text-md-center">Mar.2014: さいたま市立浦和高校卒業</p>
+          <p class="text-sm-left text-md-center">Apr.2014: 大阪大学経済学部入学</p>
+          <p class="text-sm-left text-md-center">Aug.2016: Web制作を開始</p>
+          <p class="text-sm-left text-md-center">Sep.2017: 大規模ビジネスコンテストにて優勝</p>
+          <p class="text-sm-left text-md-center">Mar.2018: Bullzにて、自社サービス開発</p>
+      </div>
+      <div class="mt-5">
+        <p class="display-1">
+          Skills.
+        </p>
+      </div>
+      <div class="mt-3 skills-wrapper">
+        <p>HTML, CSS(Sass): 1年半</p>
+        <p>Ruby, Ruby on Rails: 1年</p>
+        <p>React.js, Vue.js: 3ヶ月程度</p>
+        <p>Swift: 3ヶ月</p>
+        <p>その他: Firebase, Heroku, ドメイン設定, WordPressサイト構築, スクレイピング(Python)</p>
+      </div>
+    </v-container>
   </div>
 </template>
 
@@ -32,9 +44,19 @@ export default {
   font-size: 18px;
   text-align: center;
 }
+.skills-wrapper p {
+  font-size: 18px;
+  text-align: center;
+}
 @media (max-width: 480px) {
   .desc-wrapper p {
     font-size: 16px;
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .skills-wrapper p {
+    font-size: 18px;
     text-align: left;
   }
 }
