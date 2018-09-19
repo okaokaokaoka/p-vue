@@ -85,6 +85,9 @@
             </v-card-text>
           </v-slide-y-transition>
         </v-card>
+        <div class="text-center sub-txt-wrapper mt-3 mb-5">
+          <p>その他、月間2万PV超えのメディア運営・Rails＋Reactによるインフルエンサー関連サービス開発など</p>
+        </div>
       </v-flex>
     </v-layout>
   </v-container>
@@ -106,4 +109,15 @@ export default {
 .portfolio {
   margin-top: 30px;
 }
+.sub-txt-wrapper p {
+  font-size: 18px;
+  font-weight: bold;
+}
+@media (max-width: 480px) {
+  .sub-txt-wrapper p {
+    font-size: 16px;
+  font-weight: normal;
+  }
+}
+
 </style>
