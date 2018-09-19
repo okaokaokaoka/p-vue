@@ -2,7 +2,7 @@
   <div class="portfolio">
   <v-container>
     <div class="mb-2">
-      <h1>My Works.</h1>
+      <p class="display-1">My Works.</p>
     </div>
     <v-layout row wrap>
       <v-flex xs12 sm6 offset-sm3>
@@ -29,6 +29,7 @@
           <v-slide-y-transition>
             <v-card-text v-show="show1">
               HTML, CSS(Sass), PHP等を活用し、WordPress対応のコーポレートサイトを作成しました。
+              要件のヒアリング→XDを用いたデザイン作成→コーディングまで一気通貫で行いました。
             </v-card-text>
           </v-slide-y-transition>
         </v-card>

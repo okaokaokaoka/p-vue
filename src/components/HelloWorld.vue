@@ -5,15 +5,15 @@
     </div>
     <div class="mb-3">
       <h1>Toru Okada(22)</h1>
-      <h3 color="grey lighten-3">岡田 徹</h3>
-      <div class="mt-1">
+      <h2 color="grey lighten-3">岡田 徹</h2>
+      <div class="mt-1 intro-wrapper">
         <span>1996年生まれ東京都在住、webエンジニア。</span><br>
         <span>0→1のサービス立ち上げに強みを持つ。</span><br>
-        <span>幼少期よりサイトを立ち上げて遊んでいた。</span><br>
+        <span>幼少期よりサイトなど経験。</span><br>
         <span>大阪大学の4年目を休学中</span>
       </div>
     </div>
-    <div class="mt-1 mb-3">
+    <div class="mt-2 mb-4">
       <a href="https://twitter.com/okaokatoru">
         <img src="../assets/twitter.png" alt="twitter" width="50px">
       </a>
@@ -76,5 +76,15 @@ a {
 }
 .profile-logo {
   margin-top: 30px;
+}
+
+.intro-wrapper {
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  .intro-wrapper {
+    font-size: 14px;
+  }
 }
 </style>
