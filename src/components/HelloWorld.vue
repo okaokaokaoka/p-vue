@@ -13,6 +13,17 @@
         <span>大阪大学の4年目を休学中</span>
       </div>
     </div>
+    <div class="mt-1 mb-1">
+      <a href="https://twitter.com/okaokatoru">
+        <img src="../assets/twitter.png" alt="twitter" width="50px">
+      </a>
+      <a href="https://www.facebook.com/okyaokya.yanen">
+        <img src="../assets/facebook.png" alt="facebook" width="50px">
+      </a>
+      <a href="https://github.com/okaokaokaoka">
+        <img src="../assets/git.png" alt="github" width="50px">
+      </a>
+    </div>
     <router-link to="/about">
       <v-btn large color="white">About</v-btn>
     </router-link>
