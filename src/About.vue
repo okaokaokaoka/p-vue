@@ -22,7 +22,7 @@
         <p>HTML, CSS(Sass), jQuery</p>
         <p>Ruby, Ruby on Rails</p>
         <p>React.js, Vue.js</p>
-        <p>その他: Firebase, Heroku, ドメイン設定, WordPressサイト構築, スクレイピング(Python), Swift(少し)</p>
+        <p>Others: Firebase, Heroku, ドメイン設定, WordPressサイト構築, スクレイピング(Python)</p>
       </div>
     </v-container>
   </div>
