@@ -13,7 +13,7 @@
         <span>大阪大学の4年目を休学中</span>
       </div>
     </div>
-    <div class="mt-1 mb-1">
+    <div class="mt-1 mb-3">
       <a href="https://twitter.com/okaokatoru">
         <img src="../assets/twitter.png" alt="twitter" width="50px">
       </a>
