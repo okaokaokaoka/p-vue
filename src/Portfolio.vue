@@ -7,11 +7,10 @@
     <v-layout>
       <v-flex xs12 sm6 offset-sm3>
         <v-card class="mb-3">
-          <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-            height="200px"
+          <img
+            src="./assets/bullz-cp.png"
+            width="100%"
           >
-          </v-img>
           <v-card-title primary-title>
             <div>
               <div class="headline">Bullz Hompage</div>
@@ -20,7 +19,7 @@
           </v-card-title>
 
           <v-card-actions>
-            <v-btn flat color="purple">Explore</v-btn>
+            <v-btn flat color="purple" href="https://bullz.jp/">Explore</v-btn>
             <v-spacer></v-spacer>
             <v-btn icon @click="show1 = !show1">
               <v-icon>{{ show1 ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
@@ -34,12 +33,10 @@
           </v-slide-y-transition>
         </v-card>
         <v-card class="mb-3">
-          <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-            height="200px"
+          <img
+            src="./assets/site-market.png"
+            width="100%"
           >
-          </v-img>
-
           <v-card-title primary-title>
             <div>
               <div class="headline">SiteMarket</div>
@@ -48,7 +45,7 @@
           </v-card-title>
 
           <v-card-actions>
-            <v-btn flat color="purple">Explore</v-btn>
+            <v-btn flat color="purple" href="https://www.site-market.jp/">Explore</v-btn>
             <v-spacer></v-spacer>
             <v-btn icon @click="show2 = !show2">
               <v-icon>{{ show2 ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
@@ -62,12 +59,10 @@
           </v-slide-y-transition>
         </v-card>
         <v-card class="mb-3">
-          <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
-            height="200px"
+          <img
+            src="./assets/portfolio.png"
+            width="100%"
           >
-          </v-img>
-
           <v-card-title primary-title>
             <div>
               <div class="headline">本サイト</div>
@@ -76,7 +71,7 @@
           </v-card-title>
 
           <v-card-actions>
-            <v-btn flat color="purple">Explore</v-btn>
+            <v-btn flat color="purple" href="https://toruokada.tokyo">Explore</v-btn>
             <v-spacer></v-spacer>
             <v-btn icon @click="show3 = !show3">
               <v-icon>{{ show3 ? 'keyboard_arrow_down' : 'keyboard_arrow_up' }}</v-icon>
