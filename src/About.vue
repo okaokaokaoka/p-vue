@@ -6,7 +6,6 @@
       </h1>
     </div>
     <div>
-      <img src="./assets/profile.jpg" alt="profile" height="200px">
       <p>※この画像は高校生の頃のものであり実物とは異なります。</p>
     </div>
     <div>

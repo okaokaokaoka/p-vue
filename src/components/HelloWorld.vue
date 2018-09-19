@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
-    <!-- <Carousel/> -->
+    <div class="mt-3">
+      <img src="../assets/profile_pic.jpg" alt="profile" height="200px">
+    </div>
     <h1>{{ msg }}</h1>
     <router-link to="/about">
       <v-btn large color="white">About</v-btn>
