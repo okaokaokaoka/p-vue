@@ -19,11 +19,10 @@
         </p>
       </div>
       <div class="mt-3 skills-wrapper">
-        <p>HTML, CSS(Sass): 1年半</p>
-        <p>Ruby, Ruby on Rails: 1年</p>
-        <p>React.js, Vue.js: 3ヶ月程度</p>
-        <p>Swift: 3ヶ月</p>
-        <p>その他: Firebase, Heroku, ドメイン設定, WordPressサイト構築, スクレイピング(Python)</p>
+        <p>HTML, CSS(Sass), jQuery</p>
+        <p>Ruby, Ruby on Rails</p>
+        <p>React.js, Vue.js</p>
+        <p>その他: Firebase, Heroku, ドメイン設定, WordPressサイト構築, スクレイピング(Python), Swift(少し)</p>
       </div>
     </v-container>
   </div>
