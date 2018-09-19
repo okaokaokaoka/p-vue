@@ -3,7 +3,16 @@
     <div class="mt-3">
       <img src="../assets/profile_pic.jpg" alt="profile" height="200px">
     </div>
-    <h1>{{ msg }}</h1>
+    <div class="mb-3">
+      <h1>Toru Okada(22)</h1>
+      <h3 color="grey lighten-3">岡田 徹</h3>
+      <div class="mt-1">
+        <span>1996年生まれ東京都在住、webエンジニア。</span><br>
+        <span>0→1のサービス立ち上げに強みを持つ。</span><br>
+        <span>幼少期よりサイトを立ち上げて遊んでいた。</span><br>
+        <span>大阪大学の4年目を休学中</span>
+      </div>
+    </div>
     <router-link to="/about">
       <v-btn large color="white">About</v-btn>
     </router-link>
@@ -28,13 +37,9 @@ export default {
   },
   data () {
     return {
-      msg: 'Hello World!'
     }
   },
   methods: {
-    coutnUp () {
-      this.count++
-    }
   }
 }
 </script>
