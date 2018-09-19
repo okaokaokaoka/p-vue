@@ -4,17 +4,17 @@
     <div class="mb-2">
       <h1>My Works.</h1>
     </div>
-    <v-layout>
+    <v-layout row wrap>
       <v-flex xs12 sm6 offset-sm3>
         <v-card class="mb-3">
           <img
             src="./assets/bullz-cp.png"
             width="100%"
           >
-          <v-card-title primary-title>
+          <v-card-title primary-title class="justify-center">
             <div>
-              <div class="headline">Bullz Hompage</div>
-              <span class="grey--text">株式会社ブルズのホームページを改修しました。</span>
+              <div class="headline">Bullzコーポレートサイト</div>
+              <span class="grey--text">株式会社ブルズのコーポレートサイトを改修しました。</span>
             </div>
           </v-card-title>
 
@@ -37,7 +37,7 @@
             src="./assets/site-market.png"
             width="100%"
           >
-          <v-card-title primary-title>
+          <v-card-title primary-title class="justify-center">
             <div>
               <div class="headline">SiteMarket</div>
               <span class="grey--text">サイトM&Aのサービスを開発しました。</span>
@@ -63,9 +63,9 @@
             src="./assets/portfolio.png"
             width="100%"
           >
-          <v-card-title primary-title>
+          <v-card-title primary-title class="justify-center">
             <div>
-              <div class="headline">本サイト</div>
+              <div class="headline">Toru Okada's Portfolio</div>
               <span class="grey--text">ポートフォリオサイトを作成しました。</span>
             </div>
           </v-card-title>
@@ -80,7 +80,7 @@
 
           <v-slide-y-transition>
             <v-card-text v-show="show3">
-              Vue.js + Vuetify + Firebaseにてポートフォリオサイトの作成を行いました。
+              Vue.js + Vuetify + Firebaseにてポートフォリオサイトを作成しました。
             </v-card-text>
           </v-slide-y-transition>
         </v-card>
