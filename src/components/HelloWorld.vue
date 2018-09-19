@@ -3,13 +3,13 @@
     <!-- <Carousel/> -->
     <h1>{{ msg }}</h1>
     <router-link to="/about">
-      <v-btn>岡田徹について知る</v-btn>
+      <v-btn large color="white">About</v-btn>
     </router-link>
     <router-link to="/portfolio">
-      <v-btn>仕方ねえからポートフォリオを見てやるか…</v-btn>
+      <v-btn large color="white">Works</v-btn>
     </router-link>
     <router-link to="/contact">
-      <v-btn>儲かる話はこちら</v-btn>
+      <v-btn large color="white">Contact</v-btn>
     </router-link>
   </div>
 </template>
