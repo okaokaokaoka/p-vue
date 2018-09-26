@@ -9,7 +9,7 @@
       <div class="mt-3 desc-wrapper">
           <p class="text-sm-left text-md-center">Mar.2014: さいたま市立浦和高校卒業</p>
           <p class="text-sm-left text-md-center">Apr.2014: 大阪大学経済学部入学</p>
-          <p class="text-sm-left text-md-center">Aug.2016: Web制作を開始</p>
+          <p class="text-sm-left text-md-center">Dec.2016: akippaにて法人・個宅営業</p>
           <p class="text-sm-left text-md-center">Sep.2017: 大規模ビジネスコンテストにて優勝</p>
           <p class="text-sm-left text-md-center">Mar.2018: Bullzにて、自社サービス開発</p>
       </div>
@@ -22,7 +22,7 @@
         <p>HTML, CSS(Sass), jQuery</p>
         <p>Ruby, Ruby on Rails</p>
         <p>React.js, Vue.js</p>
-        <p>Others: Firebase, Heroku, ドメイン設定, WordPressサイト構築, スクレイピング(Python)</p>
+        <p>Others: Firebase, Heroku, AWS, WordPressサイト構築, スクレイピング(Python)</p>
       </div>
     </v-container>
   </div>
